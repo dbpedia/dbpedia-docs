@@ -1,0 +1,3 @@
+http://www.geonames.org/ontology/ontology_v3.1.rdf
+http://www.geonames.org/ontology/mappings_v3.01.rdf
+http://download.geonames.org/all-geonames-rdf.zip
