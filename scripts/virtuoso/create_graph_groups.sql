@@ -1,3 +1,5 @@
+--# See here for more details http://docs.openlinksw.com/virtuoso/rdfgraphsecurity.html
+
 --# this is the master (virtual) graph group
 DB.DBA.RDF_GRAPH_GROUP_CREATE ('http://dbpedia.org',1);
 
