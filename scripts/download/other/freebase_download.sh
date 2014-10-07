@@ -10,5 +10,5 @@ echo "http://freebase.com" >  ./global.graph
 # wget $URL
 
 #download, split gzip
-wget -q -O - $URL | zcat | split -d --line-bytes 500M -a 4 --additional-suffix=".nt" --filter='gzip > $FILE.gz' - "freebase-"
+wget -q -O - $URL | zcat | split -d --line-bytes 500M -a 4 --filter='gzip > $FILE.nt.gz' - "freebase-"
 
